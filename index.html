@@ -25,6 +25,51 @@ Renseigner le title dans le js fonction init
   console.table(par2);
   console.log();
   console.log(x.<0>.innerhtml)
+  getElementById.onclick
+  addeventlistner
 </script>
   <body>
 </html>
+
+//html parents
+//head et body frr et soeur : siblings
+//avant d'accerder a la valeur, dabord noeud on ne sais pas ce quil y a dedans ensuite possibl valeur
+//text "noeud texte"
+//innerhtml permet de regarder la valeur dans le noeud.
+/*tout les elements d'une page sont des noeuds
+hierarchies entre les noeuds
+parents, enfants, frr et srr servent a decrire les relation entre les noeuds
+html noeud de niveau top, root pas de parents
+les noeuds inférieurs ne peuvent avoir plusieurs parents
+element et body sont chils nodes(noeuds enfants)attendu qu'un npeud peut contenir des noeuds
+//<title id="demo">DOM tutorial</title>
+on y accède avec innerhtml
+var mytitle = ducumentgetElementById("demo").innerHTML;
+on y accède avec la propriété du 1er enfant du noeud
+var mytitle = ducumentgetElementById("demo").firstChild.nodeValue;
+equivalent de :
+var mytitle = ducumentgetElementById("demo").childNodes[0].nodeValue
+pour ajouter un element au dom, il faut d'abord le créer, puis l'ahouter à sont parent.
+ne pas ouyblier que le texte est une textNOde
+
+Supprimer avec remove() ou removeChild()
+var child = document.getElementById("p1");
+child.parentNode.removeChild(child);
+
+remplacer un element par un autre avec :
+parent.replaceChild(para, child);
+
+voir le damier en DOM
+
+de la meme façon que le juste prix, il est possible de d'utiliser un enfant pour appeller une fonction mere d'une manière différente.
+
+ajout/suppression d'éléments :
+document.createElement(element) //Cree un element html
+document.removeChild(elemnt)    //Retire un elmeent HTML
+document.appendChild(element)   //ajouter
+document.replaceChild(nex, old) //remplacer
+document.write(text)
+
+*/
+
+addeventlistner(onclick.mymove) deplacement diagonale de l'objet animé
